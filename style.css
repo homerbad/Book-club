@@ -1,0 +1,88 @@
+body {
+  background-color: gainsboro;
+  padding: .5rem;
+}
+
+.this_month, .next_month, .books_read, .book_reviews, .welcome {
+  background-color: gainsboro;
+  margin: 10px 10px;
+  width: 100%;
+  text-align: center;
+  color: black;
+
+}
+
+
+.features {
+  display:flex;
+}
+
+
+@media screen and (max-width: 720px) {
+  .features {
+    display:block;
+
+  }
+}
+
+
+.this_month_image, .next_month_image, .books_read_image, .book_reviews_image, .welcome_image {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover, li:hover, .nav-item:hover {
+  background-color: #aaaa;
+  color: black;
+}
+
+
+.survey {
+  padding:0.2rem;
+  width: 50%;
+  font-weight: bold;
+}
+
+.submit-button {
+  background-color: gray;
+  color: red;
+}
+.submit-color {
+  background-color: gainsboro;
+  color: red;
+  font-size: 2rem;
+}
+
+.form-option {
+  display: block;
+}
+
+.book-choice-instructions {
+  margin: 5px;
+  background-color: gray;
+  color: white;
+
+}
+
+.form-container {
+  margin: 5px;
+}
+
+#footer {
+    position: fixed;
+    height: 50px;
+    background-color: #2b2b2e;
+    color: gainsboro;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+}
+
+.footer-text {
+  text-align: center;
+}
